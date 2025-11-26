@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.XR.ARFoundation;
 
 public class TimerScript : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class TimerScript : MonoBehaviour
     public Text finalScoreText;
     public Text timeLeftText;
     public Text scoreText;
+    public ARSession arSession;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -38,6 +40,8 @@ public class TimerScript : MonoBehaviour
     public void RestartGame()
     {
         gameOverScreen.SetActive(false);
+        arSession.Reset();
+        Input.gyro.enabled = true;
         timeLeft = 30f;
         ShootScript.score = 0;
         scoreText.text = 0 + "";
