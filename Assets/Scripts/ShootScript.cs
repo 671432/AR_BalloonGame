@@ -6,7 +6,7 @@ public class ShootScript : MonoBehaviour
 
     public Camera arCamera;
     public GameObject popSoundObject;
-    int score;
+    public static int score;
     public Text scoreText;
 
     public void Shoot()
