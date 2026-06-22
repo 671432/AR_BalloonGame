@@ -1,3 +1,11 @@
+> [!WARNING]
+> **This repository has moved**<br />
+> This GitHub repo is no longer actively maintained and will not receive further updates.<br />
+> Development has moved to GitLab: 
+> **[AR_BalloonGame](https://gitlab.com/MasterRaxer/AR_BalloonGame)**
+
+[![Moved to GitLab](https://img.shields.io/badge/Moved%20to-GitLab-orange?logo=gitlab)](https://gitlab.com/MasterRaxer/AR_BalloonGame)
+
 # AR_BalloonGame
 
 LIL course project
